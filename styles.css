@@ -1,0 +1,28 @@
+body{
+    background-color: aliceblue;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+}
+.head{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: palevioletred;
+    font-style: italic;
+
+}
+.imagename{
+    font-size: medium;
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+}
+
+@media(max-width: 750px){
+    .grid-cols-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));}
+}
